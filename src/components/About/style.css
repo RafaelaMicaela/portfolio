@@ -1,0 +1,62 @@
+.about {
+    flex-grow: 1;
+}
+
+.about p {
+    font-size: 18px;
+    font-style: normal;
+    color: #99B4C5;        
+}
+
+.about .info {
+    margin-bottom: 20px;
+    color: #99B4C5;
+    text-align: center;   
+}
+
+.about .info p{
+    font-family: "Righteous", cursive;
+    color: #61727D;
+    font-size: 18px;
+    text-align: right;
+}
+
+.about .title {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Righteous", cursive;
+}
+
+.adout .title p{
+    line-height: 50px;
+}
+
+.about .person {
+    width: 100%;
+    margin-top: 20px;
+}
+.about .person img{
+    width: 240px;
+    height: 238px;
+    left: 157px;
+    top: 171px;
+    border-radius: 300px;
+}
+
+@media (min-width: 800px) {
+    .home {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .home .title,
+    .home .person {
+      width: 50%;
+      margin-top: 0;
+      text-align: left;
+      font-size: 25px;
+    }
+    .home .person img {
+      width: 100%;
+    }
+  }
