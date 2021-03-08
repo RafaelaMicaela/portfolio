@@ -30,11 +30,43 @@ const NavBar = () => {
     return (
       <nav className="navbar">
         <div className="nav-wrapper">
+        <div className="logo">
+          <Link to="/">
+            <img
+              src={`${process.env.PUBLIC_URL}/logo.png`}
+              alt="brand"
+            />
+          </Link>
+        </div>
+        <div className="list-wrapper">
+          <img
+            src={`${process.env.PUBLIC_URL}/menu-bars.png`}
+            alt="Menu bars"
+            style={{ opacity: !open ? 1 : 0 }}
+            onClick={() => {
+              setOpen(!open);
+            }}
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/cross-menu-icon.png`}
+            alt="Menu cross"
+            style={{ opacity: open ? 1 : 0 }}
+            onClick={() => {
+              setOpen(!open);
+            }}
+          />
          
-          <div className="list-wrapper">
-           
-            
             <ul style={{ left: open ? "0" : "-100vw" }}>
+
+            <li>
+                <Link
+                  to="/home"
+                  onClick={handleClose}
+                  style={{ color: location.pathname === "/home" && "#D3BBED" }}
+                >
+                  Home
+                </Link>
+              </li>
         
               <li>
                 <Link
@@ -47,9 +79,9 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  to="/works"
+                  to="/project"
                   onClick={handleClose}
-                  style={{ color: location.pathname === "/works" && "#D3BBED" }}
+                  style={{ color: location.pathname === "/project" && "#D3BBED" }}
                 >
                   Projetos
                 </Link>
