@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+
+}
+.project {
+    font-size: 18px;
+    font-style: normal;
+    color: #99B4C5;
+    text-align: center;   
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+    
+}
+
+.repo {
+    margin: 0 -5px;
+}
+
+.repo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Reponsive columns*/
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.card {
+    box-shadow: #99B4C5;
+    padding: 10px;
+    text-align: center;
+    background-color: #D8F5FF;
+    color: #99B4C5;
+    border-radius: 15px;
+}
