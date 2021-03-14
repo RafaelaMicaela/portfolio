@@ -32,6 +32,7 @@ const About = () => {
                     />
 
                 </a>
+            </div>
 
                 <div className="dev">
                     <a href="https://github.com/RafaelaMicaela">
@@ -41,7 +42,7 @@ const About = () => {
 
                 </div>
 
-      </div>
+      
         </div>
     );
 };

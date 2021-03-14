@@ -13,12 +13,20 @@
 .column {
     float: left;
     width: 25%;
-    padding: 0 5px;
+    padding: 10px 5px;
     
 }
 
 .repo {
     margin: 0 -5px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-bottom: 32px;
+    justify-content: space-around;
+
+
 }
 
 .repo:after {
@@ -44,4 +52,6 @@
     background-color: #D8F5FF;
     color: #99B4C5;
     border-radius: 15px;
+
+
 }

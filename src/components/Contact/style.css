@@ -16,13 +16,17 @@
 .contact .footer_social {
     width: 100%;
     
+    
   }
 
-.contact dev{
-    color:#99B4C5;
-    padding: .5rem;
 
-}  
+.contact .dev a{
+  text-decoration: none;
+  color: #99B4C5;
+  text-align: center;
+ 
+}
+
 
 .contact .core{
     color: #D8B5FF;
