@@ -8,7 +8,7 @@ const About = () => {
             <div className="repo">
                 <div className="column">
                     <div className="card">
-                        <p><i className="fa-repo"></i></p>
+        
                         <h3>Teste</h3>
                         <p>Teste</p>
 
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="column">
                     <div className="card">
-                        <p><i className="fa-repo"></i></p>
+                    
                         <h3>Teste</h3>
                         <p>Teste</p>
 
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
                 <div className="column">
                     <div className="card">
-                        <p><i className="fa-repo"></i></p>
+                        
                         <h3>Teste</h3>
                         <p>Teste</p>
 

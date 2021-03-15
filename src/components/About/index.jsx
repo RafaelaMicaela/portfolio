@@ -22,26 +22,24 @@ const About = () => {
                 </p>
 
                 <div className="chip">
-                   <span>Teste</span>
+                   <span>CSS</span>
+                </div>
+                <div className="chip">
+                   <span>HTML</span>
+                </div>
+                <div className="chip">
+                   <span>REACT</span>
+                </div>
+                <div className="chip">
+                   <span>JS</span>
+                </div>
+                <div className="chip">
+                   <span>UI/UX</span>
                 </div>
                 <div className="chip">
                    <span>Teste</span>
                 </div>
-                <div className="chip">
-                   <span>Teste</span>
-                </div>
-                <div className="chip">
-                   <span>Teste</span>
-                </div>
-                <div className="chip">
-                   <span>Teste</span>
-                </div>
-                <div className="chip">
-                   <span>Teste</span>
-                </div>
-                <div className="chip">
-                   <span>Teste</span>
-                </div>
+
 
                 <AddChip />
                 
