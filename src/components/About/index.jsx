@@ -1,6 +1,5 @@
 
-import React, { Component} from 'react'
-import AddChip from "./AddChip";
+
 import "./style.css";
 
 
@@ -18,7 +17,7 @@ const About = () => {
 
             <h1>Sobre</h1>
                 <p>
-                atualmente moro em Natal/RN. Tenho 23 anos sou discente em análise e desenvolvente de sistema pelo IFRN. Tenho expêriencia em suporte técnico e desenvolvimento.
+                Atualmente moro em Natal/RN. Tenho 23 anos sou discente em análise e desenvolvente de sistema pelo IFRN. Tenho expêriencia em suporte técnico e desenvolvimento.
                 </p>
 
                 <div className="chip">
@@ -39,14 +38,7 @@ const About = () => {
                 <div className="chip">
                    <span>Teste</span>
                 </div>
-
-
-                <AddChip />
-                
-           
-
-                
-            
+   
 
         </div>
     );

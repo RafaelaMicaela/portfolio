@@ -1,5 +1,8 @@
+
 .contact {
     flex-grow: 1;
+    position: relative;
+
   }
   
 .contact h1 {
@@ -24,6 +27,10 @@
   text-decoration: none;
   color: #99B4C5;
   text-align: center;
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - (143px / 2));
+  
  
 }
 

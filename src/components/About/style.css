@@ -5,7 +5,8 @@
 .about p {
     font-size: 18px;
     font-style: normal;
-    color: #61727D;        
+    color: #61727D; 
+    text-align: center;     
 }
 
 .about {
@@ -22,7 +23,7 @@
     line-height: 50px;
     border-radius: 25px;
     background-color: #D3BBED;
-    color: #61727D;
+    color:#ffffff;;
     cursor: pointer;
     margin: 0 5px 3px 0
 

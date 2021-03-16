@@ -34,16 +34,17 @@ const About = () => {
                 </a>
             </div>
 
-                <div className="dev">
-                    <a href="https://github.com/RafaelaMicaela">
-                        Feito por  <span className="core">♥</span> Rafaela 
-                       
-                    </a>
+            <footer className="dev">
+                <a href="https://github.com/RafaelaMicaela">
+                    Feito por  <span className="core">♥</span> Rafaela 
+                    
+                </a>
 
-                </div>
+            </footer>
 
       
         </div>
+                
     );
 };
 
