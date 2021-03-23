@@ -25,6 +25,14 @@
     color:#ffffff;;
     cursor: pointer;
     margin: 5px 5px 3px 5px;
+    font-family: "Righteous", cursive;
+
+}
+
+.about .chip a{
+    color: #ffffff;
+    text-decoration: none;
+   
 
 }
 
